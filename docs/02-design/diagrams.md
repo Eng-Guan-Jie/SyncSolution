@@ -8,7 +8,8 @@ This document presents the main system diagrams for the Singto scheduling assist
 
 The Context Diagram shows Singto as the central system and its interactions with external actors and services.
 
-![D1 Context Diagram](assets/diagrams/D1-context.png)
+<p align="left">
+  <img src="assets/diagrams/D1-context.png" width=300"> </p>
 
 ### Main External Entities
 
@@ -24,7 +25,7 @@ The Context Diagram shows Singto as the central system and its interactions with
 
 The Use Case Diagram describes the main interactions between users and the Singto system.
 
-![D2 Use Case Diagram](assets/diagrams/D2-use-case.png)
+(รูป)
 
 ### Main Use Cases
 
@@ -44,7 +45,7 @@ The Use Case Diagram describes the main interactions between users and the Singt
 
 The Architecture Diagram shows the major components of Singto and how they communicate.
 
-![D3 System Architecture Diagram](assets/diagrams/D3-architecture.png)
+(รูป)
 
 ### Architecture Components
 
@@ -63,7 +64,7 @@ The Architecture Diagram shows the major components of Singto and how they commu
 
 The Activity Diagram describes the main workflow from creating an appointment to confirming the final date.
 
-![D4 Activity Diagram](assets/diagrams/D4-activity.png)
+(รูป)
 
 ### Core Workflow
 
