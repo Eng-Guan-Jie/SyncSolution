@@ -2,7 +2,7 @@
 
 ## 1. Product Overview
 
-**Singto** is a LINE-integrated scheduling assistant designed to simplify group appointment coordination. It helps users create appointments, collect participants' availability, analyze common available dates and times, and confirm a suitable appointment.
+**Singto** is a LINE-integrated scheduling assistant designed to simplify group appointment coordination. It helps users create appointments, collect participants' availability, analyze common available dates, and confirm a suitable appointment.
 
 The Product Backlog contains the features and user stories required to develop the core Singto scheduling workflow.
 
@@ -15,12 +15,12 @@ The Product Backlog contains the features and user stories required to develop t
 | PB-01 | Appointment Management     | As an organizer, I want to create an appointment with basic details so that I can start the scheduling process.                                                                 | High     |            3 |
 | PB-02 | Appointment Management     | As an organizer, I want to specify a scheduling period so that participants can provide availability within the relevant dates.                                                 | High     |            2 |
 | PB-03 | Participant Access         | As a participant, I want to access an appointment through a shared link so that I can join the scheduling process easily.                                                       | High     |            2 |
-| PB-04 | Availability Collection    | As a participant, I want to select my available dates and times so that the system can compare my availability with other participants.                                         | High     |            5 |
+| PB-04 | Availability Collection    | As a participant, I want to select my available dates so that the system can compare my availability with other participants.                                         | High     |            5 |
 | PB-05 | Availability Collection    | As an organizer, I want to view the availability submitted by participants so that I can see the group's scheduling information in one place.                                   | High     |            3 |
-| PB-06 | Availability Analysis      | As a user, I want the system to compare everyone's availability so that common available dates and times can be identified automatically.                                       | High     |            5 |
-| PB-07 | Date Suggestion            | As an organizer, I want the system to suggest suitable dates and times based on participants' availability so that I can make a scheduling decision more efficiently.           | High     |            5 |
+| PB-06 | Availability Analysis      | As a user, I want the system to compare everyone's availability so that common available dates can be identified automatically.                                       | High     |            5 |
+| PB-07 | Date Suggestion            | As an organizer, I want the system to suggest suitable dates based on participants' availability so that I can make a scheduling decision more efficiently.           | High     |            5 |
 | PB-08 | Availability Summary       | As a user, I want to see a clear summary of common availability so that I can easily understand the suggested scheduling options.                                               | High     |            3 |
-| PB-09 | Appointment Confirmation   | As an organizer, I want to confirm the selected date and time so that the final appointment can be recorded and shared with participants.                                       | High     |            3 |
+| PB-09 | Appointment Confirmation   | As an organizer, I want to confirm the selected date so that the final appointment can be recorded and shared with participants.                                       | High     |            3 |
 | PB-10 | LINE Integration           | As a user, I want to start the scheduling process through a LINE group so that I can coordinate appointments without switching to a completely separate communication platform. | High     |            5 |
 | PB-11 | LINE Integration           | As a participant, I want to receive a link to the scheduling web application through LINE so that I can submit my availability easily.                                          | High     |            3 |
 | PB-12 | Notifications              | As a participant, I want to receive scheduling reminders so that I do not forget to submit my availability or attend a confirmed appointment.                                   | Medium   |            3 |
@@ -67,7 +67,7 @@ The corresponding backlog items are:
 
 ### PB-04 — Submit Availability
 
-* Participants can select available dates and times.
+* Participants can select available dates.
 * Participants can submit their availability successfully.
 * Submitted availability is stored in the system.
 
@@ -80,25 +80,25 @@ The corresponding backlog items are:
 ### PB-06 — Analyze Availability
 
 * The system compares the availability of multiple participants.
-* The system identifies dates and times that are available for the group.
+* The system identifies dates that are available for the group.
 * The analysis is based on the availability submitted by participants.
 
 ### PB-07 — Suggest Best Dates
 
-* The system generates suitable date/time options based on the availability analysis.
+* The system generates suitable date options based on the availability analysis.
 * Suggested options are ranked or presented clearly.
 * Users can review the suggested options before confirming an appointment.
 
 ### PB-08 — Availability Summary
 
-* Users can view a summary of common available dates and times.
+* Users can view a summary of common available dates.
 * The summary is easy to understand on a mobile device.
 * Users can distinguish suitable options from unavailable options.
 
 ### PB-09 — Confirm Appointment
 
 * Organizer can select one of the suggested options.
-* The selected date and time are saved as the confirmed appointment.
+* The selected date is saved as the confirmed appointment.
 * Confirmed appointment information can be displayed to participants.
 
 ### PB-10 — LINE Integration
