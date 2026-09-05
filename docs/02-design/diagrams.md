@@ -9,7 +9,7 @@ This document presents the main system diagrams for the Singto scheduling assist
 The Context Diagram shows Singto as the central system and its interactions with external actors and services.
 
 <p align="left">
-  <img src="../../assets/diagrams/D1-context.png" width="300"> </p>
+  <img src="../../assets/diagrams/D1-context.png"> </p>
 
 ### Main External Entities
 
